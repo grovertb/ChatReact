@@ -1,0 +1,36 @@
+{
+  "name": "ChatReact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "build": "webpack -w",
+    "production": "webpack && node server"
+  },
+  "keywords": [
+    "React",
+    "Chat",
+    "Project"
+  ],
+  "author": "Grover Trujillo Benites <grover.jtb@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "webpack": "^2.2.1"
+  }
+}
