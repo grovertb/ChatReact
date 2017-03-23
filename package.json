@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server",
     "dev": "nodemon server",
-    "build": "webpack -w",
+    "build-watch": "webpack -w",
+    "build": "webpack",
     "production": "webpack && node server"
   },
   "keywords": [
@@ -19,9 +20,13 @@
   "dependencies": {
     "express": "^4.15.2",
     "lodash": "^4.17.4",
+    "material-ui": "^0.17.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "socket.io": "^1.7.3"
+    "react-router": "^3.0.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "socket.io": "^1.7.3",
+    "stylus": "^0.54.5"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
@@ -30,7 +35,10 @@
     "babel-preset-es2016": "^6.22.0",
     "babel-preset-es2017": "^6.22.0",
     "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.1",
     "extract-text-webpack-plugin": "^2.1.0",
+    "style-loader": "^0.13.2",
+    "stylus-loader": "^3.0.1",
     "webpack": "^2.2.1"
   }
 }
